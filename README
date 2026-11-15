@@ -8,3 +8,74 @@ token on Telegram
 
 @MajorVolumeBot
 Volume, Bumps & Holder Boosts for SOL, HOOD & BSC.   Pause & withdraw anytime.   Ads&Support: @MajorHelpBot
+
+
+# Contract Foundry Multichain
+
+Contract Foundry is an open-source Web3 interface for predicting and deploying smart contracts using the CREATE2 deterministic-deployment technique.
+
+## Live Application
+
+https://contract-foundry-multichain.opalescentcoati4.chatgpt.site/
+
+## Features
+
+- Connect an EVM-compatible wallet
+- Select Ethereum, Base, BNB Chain, or Polygon
+- Deploy several types of smart contracts
+- Enter or generate a CREATE2 salt
+- Predict the contract address before deployment
+- Use deterministic deployment across supported networks
+- Review deployment details and transaction status
+
+## Supported Networks
+
+- Ethereum
+- Base
+- BNB Smart Chain
+- Polygon
+
+## How CREATE2 Works
+
+CREATE2 calculates a contract address from:
+
+- The deploying factory address
+- A 32-byte salt
+- The contract creation bytecode
+
+Using the same factory, salt, and bytecode can produce the same address on different compatible networks, provided that the address is available.
+
+## Basic Usage
+
+1. Open the live application.
+2. Connect your wallet.
+3. Select a supported network.
+4. Choose the contract type.
+5. Enter the required contract settings.
+6. Enter or generate a 32-byte salt.
+7. preview the predicted address.
+8. Confirm the deployment in your wallet.
+9. Save and verify the deployed contract address.
+
+## Important Notice
+
+This project cannot duplicate an existing contract address on a network where that address is already occupied. CREATE2 does not allow anyone to replace or impersonate official contracts such as USDT.
+
+Tokens created with this project are independent contracts. Their names, symbols, ownership, and addresses must be presented accurately and must not mislead users.
+
+## Security
+
+- Review all contract parameters before deployment.
+- Test on a test network before using real funds.
+- Never share your seed phrase or private key.
+- Verify contract source code on the appropriate block explorer.
+- Smart-contract deployment requires network gas fees.
+- This software is provided without a guarantee of profit or financial return.
+
+## Disclaimer
+
+This project is intended for educational and legitimate development purposes. Users are responsible for complying with applicable laws and for clearly identifying any contracts or tokens they deploy.
+
+## License
+
+MIT License
